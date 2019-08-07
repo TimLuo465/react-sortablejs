@@ -1,7 +1,7 @@
 /* eslint consistent-return: 0 */
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import { Sortable as SortableJS, AutoScroll } from '@timluo465/sortablejs';
+import SortableJS, { AutoScroll } from '@timluo465/sortablejs/modular/sortable.core.esm.js';
 
 const store = {
     nextSibling: null,

@@ -4,11 +4,9 @@
   "description": "A React component built on top of Sortable (https://github.com/SortableJS/Sortable).",
   "main": "lib/index.js",
   "scripts": {
-    "prepublish": "npm run eslint && npm test && npm run build && npm run dist && npm run build-examples && npm run release",
+    "prepublish": "npm run eslint && npm test && npm run build && npm run dist",
     "build": "babel --out-dir ./lib ./src",
-    "build-examples": "cd examples && webpack-cli",
     "dist": "set BUILD_ENV=dist && webpack-cli",
-    "release": "mkdir -p releases; cp -f dist/react-sortable.js releases/react-sortable-${npm_package_version}.js; cp -f dist/react-sortable.min.js releases/react-sortable-${npm_package_version}.min.js",
     "eslint": "eslint ./src",
     "precommit-check": "npm run eslint",
     "test": "tap test/*.js --node-arg=--require --node-arg=@babel/register --node-arg=--require --node-arg=@babel/polyfill",
