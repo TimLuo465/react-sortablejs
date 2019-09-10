@@ -898,10 +898,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@timluo465/sortablejs@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/@timluo465/sortablejs/-/sortablejs-1.0.0.tgz#d9a9900489aa83f24bd927e4ff214a7d3c8530e0"
-  integrity sha512-LexVCAaOjBv44TVK9yD/ZcvIfWZ3OBx67b+V6H7uKeyIaY1QYZnfXt6xI7hW5TsbWou+sNFZQCQajbCN6A3NFg==
+"@timluo465/sortablejs@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/@timluo465/sortablejs/-/sortablejs-1.0.1.tgz#edccb6aec4a1241e0451d98aa4c564f4acc140f5"
+  integrity sha512-kUs4w5jwIWheg3Sky0zvaXlsMA5oDDROKlurOS0isUVaRg01y51wlM7+YeQ4M3X2e6STSkpOQy9Kkb7w6QEOqg==
 
 "@trendmicro/babel-config@~1.0.0-alpha":
   version "1.0.0-alpha"

@@ -1,6 +1,6 @@
 {
   "name": "@timluo465/react-sortablejs",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A React component built on top of Sortable (https://github.com/SortableJS/Sortable).",
   "main": "lib/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "precommit-check": "npm run eslint",
     "test": "tap test/*.js --node-arg=--require --node-arg=@babel/register --node-arg=--require --node-arg=@babel/polyfill",
     "coveralls": "tap test/*.js --coverage --coverage-report=text-lcov --nyc-arg=--require --nyc-arg=@babel/register --nyc-arg=--require --nyc-arg=@babel/polyfill | coveralls",
-    "dev": "cd examples; webpack-dev-server --hot --inline --host 0.0.0.0 --port 8000 --content-base ../docs"
+    "dev": "cd examples && webpack-dev-server --hot --inline --host 0.0.0.0 --port 8000 --content-base ../docs"
   },
   "pre-commit": [
     "precommit-check"
@@ -66,7 +66,7 @@
     "nib": "~1.1.2",
     "react": ">=15.0.0",
     "react-dom": ">=15.0.0",
-    "@timluo465/sortablejs": "^1.0.0",
+    "@timluo465/sortablejs": "^1.0.1",
     "stylus-loader": "~3.0.1",
     "tap": "~12.1.1",
     "terser-webpack-plugin": "~1.2.1",
